@@ -1,0 +1,10 @@
+rank,model,stage,cv_rmse,cv_std,params
+1,Lasso,tuned,0.1128,0.0067,alpha=0.005
+2,Gradient Boosting,tuned,0.1162,0.0054,"learning_rate=0.03, max_depth=3, n_estimators=1000"
+3,Ridge,tuned,0.1187,0.0085,alpha=500
+4,Lasso,initial,0.1197,0.0089,alpha=0.001
+5,Gradient Boosting,initial,0.1232,0.0062,"n_estimators=100, learning_rate=0.1, max_depth=3"
+6,Ridge,initial,0.1304,0.0129,alpha=1
+7,Linear Regression,initial,0.1309,0.013,-
+8,Random Forest,initial,0.1352,0.006,n_estimators=300
+9,Baseline,mean price,0.3993,0.0168,-
